@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS";
+}
+
+body {
+  background: url(https://octodex.github.com/images/nyantocat.gif) repeat;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(255,255,255,.75);
+  padding: 30px;
+}
+
+a {
+  color: #c00;
+}
+
+label {
+  display: block;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px 10px;
+}
+
+input[type="submit"] {
+  background: #c00;
+  color: #fc0;
+  border: 1px solid #333;
+}
+
+.muted {
+  color: #666;
+}
